@@ -1,0 +1,205 @@
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/* navbar styling*/
+.navbar{
+    background-color: #000066;
+   }
+   .navbarlinks{
+   display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    }
+/* end of navbar styling*/
+
+/* header styling*/
+
+.header{
+    background-color: #000066;
+   color: #fff;
+ }
+.header-title{
+    text-align: center;
+    
+}
+/* end of header styling*/
+
+/* main styling */
+
+.title{
+    text-align: center;
+    text-decoration: underline #000066;
+   
+}
+.picture{
+    border: 20px solid #000066;
+   /* border-radius: 25%;*/
+    width: 100%;
+    display: block;
+}
+
+/* end of main styling */
+/* services styling */
+
+.servicess{
+    background-color:#000066;
+    color: #fff;
+}
+.services-title{
+    text-decoration: underline #fff;
+}
+.content{
+    text-align: center;
+}
+/*  end of services styling */
+/* contacts styling */
+.contacts{
+    background-color:#000066;
+    color: #fff;
+}
+.btn{
+    border: 2px solid #fff;
+    background-color: #000066;
+    color: #fff;
+}
+.contact-title{
+    text-decoration: underline #fff;
+    text-align: center;
+}
+.picture2{
+    width: 25%;
+    height: auto;
+    float: inline-end;
+    align-items: center;
+    border: 4px solid #000066;
+    background-color: #fff;
+    border-radius: 50%;
+
+}
+
+/* end of contacts styling */
+/* testimonial styling */
+.card{
+    /*width: 380px;*/
+    width: 100%;
+    perspective: 1000px;
+    cursor: pointer;
+    padding: 1rem;
+  
+}
+.card-inner{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+.front-face{
+    backface-visibility: hidden;
+}
+.front-face img {
+    width: 100%;
+    border-radius: 10px;
+    border: 10px solid #000066;
+   height:420px;
+   }
+.back-face{
+    backface-visibility: hidden;
+    background:#000066;
+    color: #ffff;
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: rotateY(180deg);
+    
+}
+/*.back-face h2{
+    font-size:16px;
+    margin-top:16px;
+    font-weight: 600;
+}*/
+/*.back-face p{
+    font-size: 26px;
+    font-weight: 300;
+    padding: 0.75rem;
+   
+   
+}*/
+
+.social-media i{
+    color: #000066;
+    width:40px;
+    height:40px;
+    line-height: 40px;
+    font-size: 18px;
+    background: #fff;
+    border-radius: 50%;
+    margin: 25px 6px;
+    margin-bottom: 60px;
+}
+.social-media a{
+    text-decoration: none;
+}
+.btn1{
+    color: #333;
+    font-size:20px;
+    text-decoration: none;
+    background:#ffff;
+    padding:10px 50px;
+    border-radius: 25px;
+    /*margin: 80px auto 0;*/
+    margin-bottom:50px;
+}
+.card:hover .card-inner{
+    transform:rotateY(-180deg);
+}
+/* end of testimonial*/
+/* footer styling */
+.social-media-footer i{
+    color: #fff;
+    width:40px;
+    height:40px;
+    line-height: 40px;
+    font-size: 18px;
+    background: #000066;
+    border-radius: 50%;
+    margin: 25px 6px;
+    margin-bottom: 60px;
+
+}
+.social-media-footer a{
+    text-decoration: none;
+}
+/* footer styling */
+.testimonials{
+    background-color: #000066;
+    color: #fff;
+}
+/* testimonial styling */
+.testimonial-title{
+    text-decoration: underline #fff;
+    text-align: center;
+}
+/* thankyou page styling */
+.thankyou{
+    background-color: #000066;
+    color: #fff;
+    text-align: center;
+}
+
+
