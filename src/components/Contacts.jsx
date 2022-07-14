@@ -19,7 +19,7 @@ function Contacts() {
   <div className="mb-3 ">
     <label htmlFor="email" className="form-label">Email:</label>
     <input type="email" className="form-control" id="email" placeholder="Enter email" name="email" required/>
-    <input type="hidden" name="_next" value="https://yourdomain.co/Thankyou"></input>
+    <input type="hidden" name="_next" value="https://okorochimezie-surveyor.netlify.app//Thankyou"></input>
   </div>
   <div className="mb-3 ">
     <label htmlFor="subject" className="form-label">Subject:</label>
